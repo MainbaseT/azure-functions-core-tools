@@ -57,7 +57,7 @@ namespace Azure.Functions.Cli.Common
         public const string CustomHandlerPropertyName = "customHandler";
         public const string AuthLevelErrorMessage = "Unable to configure Authorization level. The selected template does not use Http Trigger";
         public const string HttpTriggerTemplateName = "HttpTrigger";
-        public const string PowerShellWorkerDefaultVersion = "7.2";
+        public const string PowerShellWorkerDefaultVersion = "7.4";
         public const string UserSecretsIdElementName = "UserSecretsId";
         public const string TargetFrameworkElementName = "TargetFramework";
         public const string DisplayLogo = "FUNCTIONS_CORE_TOOLS_DISPLAY_LOGO";
@@ -180,6 +180,8 @@ namespace Azure.Functions.Cli.Common
             public const string LinuxPython39ImageAmd64 = "mcr.microsoft.com/azure-functions/python:3.0.15066-python3.9-buildenv";
             public const string LinuxPython310ImageAmd64 = "mcr.microsoft.com/azure-functions/python:4-python3.10-buildenv";
             public const string LinuxPython311ImageAmd64 = "mcr.microsoft.com/azure-functions/python:4-python3.11-buildenv";
+            public const string LinuxPython312ImageAmd64 = "mcr.microsoft.com/azure-functions/python:4-python3.12-buildenv";
+
         }
 
         public static class StaticResourcesNames
